@@ -29,3 +29,24 @@ The `data` directory contains all images required for this tutorial.
 
 Use the `embbeddings.ipynb` notebook to follow along with the blog.
 
+# ZenML Pipeline
+
+The code within `zenml-pipeline` can be run using the following steps:
+
+Initialise ZenML:
+
+```bash
+$ zenml init
+```
+
+Create ZenML server:
+
+```bash
+$ zenml up
+```
+
+Run the pipeline from the root directory of this repo:
+
+```bash
+$ python3 zenml-pipeline/run.py
+```
