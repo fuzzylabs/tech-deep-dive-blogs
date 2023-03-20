@@ -45,7 +45,7 @@ Create ZenML server:
 $ zenml up
 ```
 
-Run the pipeline from the root directory of this repo:
+Run the pipeline from the `image-embedding-blog` directory:
 
 ```bash
 $ python3 zenml-pipeline/run.py
