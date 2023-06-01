@@ -10,7 +10,7 @@ You'll need following pre-requisites to run the demo:
 
 1. Clone this repo:
 ```bash
-git clone git@github.com:fuzzylabs/image-embeddings-blog.git
+git clone git@github.com:fuzzylabs/tech-deep-dive-blogs.git
 ```
 
 2. Go to the cloned directory:
