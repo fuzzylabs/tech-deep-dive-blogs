@@ -5,6 +5,7 @@ Supplementary code for our blog on Pre-Trained Image Embeddings with HuggingFace
 You'll need following pre-requisites to run the demo:
 
 - [Python 3](https://www.python.org/downloads/)
+- [Conda/Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 
 ## Getting started
 
@@ -18,11 +19,16 @@ git clone git@github.com:fuzzylabs/tech-deep-dive-blogs.git
 cd image-embeddings-blog
 ```
 
-3. Create a new Python virtual environment and activate it. For Linux/MacOS users:
+3. Create a new Python virtual environment with Conda, activate it and install required libraries. For Linux/MacOS users:
 ```bash
-python3 -m venv demoenv
-source demoenv/bin/activate
+conda create -y --name demoenv python==3.9.0
+conda activate demoenv
 pip install -r requirements.txt
+```
+
+When you are finished with this tutorial you exit the Conda environment using:
+```bash
+conda deactivate
 ```
 
 The `data` directory contains all images required for this tutorial.
