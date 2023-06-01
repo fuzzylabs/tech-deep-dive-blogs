@@ -6,3 +6,4 @@ datasets==2.10.1
 Pillow==9.4.0
 requests==2.28.2
 zenml==0.35.1
+zenml[server]==0.35.1
